@@ -1,4 +1,4 @@
-import { Stack, LanguageMenu, AccountMenu, Box, Divider, Icon, IconButton } from "eworldes-ui-toolkit";
+import { Stack, LanguageMenu, AccountMenu, Box, Divider, Icon, IconButton } from "ud-ui-toolkit";
 import Brand from "components/Brand";
 import { languages } from "config/languageConfig";
 

@@ -1,4 +1,4 @@
-import { Icon, Paper, Typography } from 'eworldes-ui-toolkit';
+import { Icon, Paper, Typography } from 'ud-ui-toolkit';
 // import Input from '@material-ui/core/Input';
 import { Link } from 'react-router-dom';
 

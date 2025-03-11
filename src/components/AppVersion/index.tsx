@@ -1,4 +1,4 @@
-import { Stack, Typography } from 'eworldes-ui-toolkit';
+import { Stack, Typography } from 'ud-ui-toolkit';
 import appVersion from '../../version.json';
 
 const AppVersion = () => {

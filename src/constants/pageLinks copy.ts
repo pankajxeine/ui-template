@@ -1,0 +1,33 @@
+// header links
+const PAGELINKS = {
+  home: "/home",
+  dashboard: "/dashboard",
+  settings: "/settings",
+  company: "/company/1",
+  signOut: "/logout",
+  users: "/settings/users",
+  roleTemplate: "/role-templates",
+  roles: "/roles",
+  customers: "/customers",
+  vendors: "/vendors",
+  products: "/products",
+  categories: "/categories",
+  sales: "/sales",
+  createSales: "/sales/new",
+  eodReconciliation: "/sales/eod-reconciliations",
+  purchases: "/purchases",
+  createPurchases: "/purchases/new",
+  crmModules: "/crm-modules",
+  uom: "/uom",
+  error403: "/exception/403",
+  profile_url: "/my-account",
+  reports: "/reports",
+  lightningCatcher: "/settings/lc-payment-setup",
+  // V2W-158 Addon Groups and Addons for FOOD INDUSTRY ONLY
+  addon_groups: "/settings/addon-groups",
+  addons: "/settings/addons",
+  notifications: "/notifications",
+  storetransfer: "/storetransfers",
+  loyaltyProgram: "/loyalty-programs",
+};
+export default PAGELINKS;

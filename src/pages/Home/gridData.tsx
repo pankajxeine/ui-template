@@ -1,6 +1,6 @@
-import { Avatar, Chip } from 'eworldes-ui-toolkit';
-// import Chip from 'eworldes-ui-toolkit';
-// import { GridCellParams, GridRowsProp, GridColDef } from 'eworldes-ui-toolkit';
+import { Avatar, Chip } from 'ud-ui-toolkit';
+// import Chip from 'ud-ui-toolkit';
+// import { GridCellParams, GridRowsProp, GridColDef } from 'ud-ui-toolkit';
 
 function renderStatus(status: 'In Stock' | 'Out of Stock' | 'Low Stock') {
     const colors: { [index: string]: 'success' | 'error' | 'warning' } = {

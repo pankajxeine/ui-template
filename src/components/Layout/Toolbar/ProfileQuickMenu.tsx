@@ -8,7 +8,7 @@ import {
   Menu,
   Stack,
   Typography,
-} from 'eworldes-ui-toolkit';
+} from 'ud-ui-toolkit';
 import ProfileImage from 'assets/avatar.jpg';
 import IconifyIcon from 'components/base/IconifyIcon';
 import { MouseEvent, useState } from 'react';

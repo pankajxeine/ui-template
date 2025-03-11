@@ -1,0 +1,143 @@
+
+export const navigationList = [
+    {
+        id: "all",
+        name: "All",
+        uri: "",
+        icon: "",
+        svgIcon: "",
+        description: "",
+        children: []
+    }, {
+        id: "company",
+        name: "Company",
+        description: "",
+        uri: "",
+        icon: "",
+        svgIcon: "",
+        children: [{
+            id: "compony",
+            name: "Compony",
+            description: "",
+            uri: "/settings/company",
+            icon: "",
+            svgIcon: "company-bg",
+        }, {
+            id: "branch",
+            name: "Branch",
+            description: "",
+            uri: "/settings/branches",
+            icon: "",
+            svgIcon: "branch-bg",
+        },
+        {
+            id: "sales-agent",
+            name: "Sales Agent",
+            description: "",
+            uri: "/settings/sales-agents",
+            icon: "",
+            svgIcon: "salesagent-bg",
+        },
+        {
+            id: "business-hours",
+            name: "Business hours",
+            description: "",
+            uri: "/settings/business-hours",
+            icon: "",
+            svgIcon: "business-hour-bg",
+        },
+        {
+            id: "package",
+            name: "Packages",
+            description: "",
+            uri: "/settings/packages",
+            icon: "",
+            svgIcon: "package-bg",
+        }]
+    },
+    {
+        id: "notification",
+        name: "Notification",
+        description: "",
+        uri: "",
+        icon: "",
+        svgIcon: "",
+        children: [{
+            id: 1,
+            name: "Alerts",
+            description: "",
+            uri: "",
+            icon: "",
+            svgIcon: "notify-bg",
+        }, {
+            id: 1,
+            name: "Emails Template",
+            description: "",
+            uri: "",
+            icon: "",
+            svgIcon: "email-configure-bg",
+        }
+        ]
+    },
+    {
+        id: "app-settings",
+        name: "App Settings",
+        description: "",
+        uri: "",
+        icon: "",
+        svgIcon: "",
+        children: [{
+            id: 1,
+            description: "",
+            name: "Compony",
+            uri: "",
+            icon: "",
+            svgIcon: "",
+        }, {
+            id: 1,
+            name: "Compony",
+            description: "",
+            uri: "",
+            icon: "",
+            svgIcon: "",
+        },
+        {
+            id: 1,
+            name: "Compony",
+            description: "",
+            uri: "",
+            icon: "",
+            svgIcon: "",
+        }]
+    },
+    {
+        id: "software",
+        name: "Software",
+        description: "",
+        uri: "",
+        icon: "",
+        svgIcon: "",
+        children: [{
+            id: 1,
+            name: "Compony",
+            description: "",
+            uri: "",
+            icon: "",
+            svgIcon: "",
+        }, {
+            id: 1,
+            name: "Compony",
+            description: "",
+            uri: "",
+            icon: "",
+            svgIcon: "",
+        },
+        {
+            id: 1,
+            name: "Compony",
+            description: "",
+            uri: "",
+            icon: "",
+            svgIcon: "",
+        }]
+    }]

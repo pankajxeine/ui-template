@@ -1,4 +1,4 @@
-import { Stack, Divider, IconButton, Icon } from "eworldes-ui-toolkit";
+import { Stack, Divider, IconButton, Icon } from "ud-ui-toolkit";
 import { useSelector, useDispatch } from 'react-redux';
 import { themeChange } from 'store/slices/layoutSlice';
 import { selectLayout } from "selectors";

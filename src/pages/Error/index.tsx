@@ -1,5 +1,5 @@
-import { Typography } from 'eworldes-ui-toolkit';
-import { MUIdButton } from 'eworldes-ui-toolkit';
+import { Typography } from 'ud-ui-toolkit';
+import { MUIdButton } from 'ud-ui-toolkit';
 
 export const Error = (props: any) => {
     return (

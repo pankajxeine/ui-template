@@ -1,5 +1,5 @@
 
-import { Typography } from "eworldes-ui-toolkit";
+import { Typography } from "ud-ui-toolkit";
 import APPCONFIG from "../../config/appConfig";
 
 const Brand = () => {

@@ -1,4 +1,4 @@
-import { Stack, Typography, Link } from "eworldes-ui-toolkit";
+import { Stack, Typography, Link } from "ud-ui-toolkit";
 import AppVersion from "../AppVersion";
 import Brand from "../Brand";
 const Footer = () => {

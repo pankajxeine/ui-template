@@ -1,9 +1,11 @@
 import { combineReducers } from '@reduxjs/toolkit';
 import layoutReducer from "./slices/layoutSlice";
+import auth from "auth/slice";
 
 const createReducer = (asyncReducers?: any) => (state: any, action: any) => {
     const combinedReducer = combineReducers({
         layout: layoutReducer,
+        auth,
         ...asyncReducers,
     });
 

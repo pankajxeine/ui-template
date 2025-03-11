@@ -1,4 +1,4 @@
-import { Icon } from "eworldes-ui-toolkit";
+import { Icon } from "ud-ui-toolkit";
 
 const ThemeSwitcher = () => {
     return (
