@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import { defineConfig, loadEnv } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import tsconfigPaths from 'vite-tsconfig-paths';
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
@@ -18,6 +19,7 @@ export default defineConfig(({ mode }) => {
       tsconfigPaths(),
       viteCommonjs(),
       react(),
+      tailwindcss(),
       VitePWA({
         includeAssets: [
           'app-icons/favicon.svg',
@@ -26,8 +28,8 @@ export default defineConfig(({ mode }) => {
           'app-icons/apple-touch-icon.png',
         ],
         manifest: {
-          short_name: 'eworled-ui-template',
-          name: 'eWorled UI Template',
+          short_name: 'UD-ui-template',
+          name: 'UD UI Template',
           background_color: '#333333',
           theme_color: '#333333',
           icons: [
@@ -58,7 +60,7 @@ export default defineConfig(({ mode }) => {
         },
       }),
     ],
-        preview: {
+    preview: {
       open: true,
       port: 3000,
     },

@@ -1,4 +1,4 @@
-import { Grid, Scrollbar, PageContainer } from 'ud-ui-toolkit';
+import { Grid, PageContainer, Scrollbar } from 'ud-ui-toolkit';
 import { motion } from 'framer-motion';
 import NavInfoCard from 'components/NavInfoCard';
 import { navigationList } from './navigation';

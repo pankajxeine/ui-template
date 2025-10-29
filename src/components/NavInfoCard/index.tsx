@@ -75,7 +75,7 @@ const NavInfoCard = ({ navigation }: any) => {
                     transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                     '&:hover': {
                         transform: 'scale(1.05)', // Slightly enlarges the Paper when hovered
-                        boxShadow: 2, // Increase the shadow for emphasis
+                        boxShadow: 1, // Increase the shadow for emphasis
                     },
                 })}
             >

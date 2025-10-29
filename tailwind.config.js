@@ -1394,5 +1394,5 @@ module.exports = {
     placeholderOpacity: false,
     verticalAlign: false,
   },
-  plugins: [require('tailwindcss-dir')()],
+  plugins: [],
 };

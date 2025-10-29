@@ -1,18 +1,16 @@
 import react from '@vitejs/plugin-react-swc';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import { defineConfig } from 'vitest/config';
-import tailwindcss from "tailwindcss";
 
 export default defineConfig({
-  css: {
-    postcss: {
-      plugins: [tailwindcss()],
-    },
-  },
+  // css: {
+  //   postcss: {
+  //     plugins: [tailwindcss()],
+  //   },
+  // },
   plugins: [tsconfigPaths(), react()],
   test: {
     coverage: {
-      all: true,
       include: ['src/**/*.ts?(x)'],
       exclude: [
         'src/**/*.d.ts',

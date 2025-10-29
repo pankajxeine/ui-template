@@ -4,7 +4,6 @@ import { dashboardRoutes } from 'pages/Dashboard/DashboardRouteConfig';
 import AccountsConfig from "../pages/Account/accountConfig";
 import { settingsRoutes } from '../pages/Settings/SettingsRouteConfig';
 import Login from "../auth/Login";
-import { Loading } from 'ud-ui-toolkit';
 
 const routes = [
     {
@@ -109,11 +108,6 @@ const routes = [
         path: '/login',
         exact: true,
         element: <Login />,
-    },
-    {
-        path: '/loading',
-        exact: true,
-        component: <Loading />,
     },
     {
         path: "*",
